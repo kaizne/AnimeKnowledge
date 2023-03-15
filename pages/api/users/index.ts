@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-import { sampleUserData } from '../../../utils/sample-data'
+import { sampleUserData } from '../../../utils/supabase-browser'
 
 const handler = (_req: NextApiRequest, res: NextApiResponse) => {
   try {

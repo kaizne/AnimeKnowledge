@@ -1,7 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 
 import { User } from '../../interfaces'
-import { sampleUserData } from '../../utils/sample-data'
+import { sampleUserData } from '../../utils/supabase-browser'
 import Layout from '../../components/Layout'
 import ListDetail from '../../components/ListDetail'
 
